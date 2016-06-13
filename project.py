@@ -19,7 +19,7 @@ def hello_world():
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'Hello man!'
 
 
 if __name__ == '__main__':
