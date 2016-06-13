@@ -1,6 +1,4 @@
 from flask import Flask
-import os
-import socket
 
 app = Flask(__name__)
 
@@ -13,7 +11,7 @@ def hello_world():
 
 
 @app.route('/')
-def hello_world():
+def boe():
     return 'Hello man!'
 
 
