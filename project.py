@@ -10,7 +10,7 @@ def hello_world():
 
 @app.route('/')
 def boe():
-    return 'Hello man  !'
+    return 'Hello m an  !'
 
 
 if __name__ == '__main__':
