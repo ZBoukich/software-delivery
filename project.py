@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/test/redis')
 def hello_world():
-    return "testing after jenkins configured"
+    return "testing after jenkins configured again"
 
 
 @app.route('/')
